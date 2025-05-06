@@ -1,0 +1,44 @@
+#my-extension-panel {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 220px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  font-family: 'Roboto', sans-serif;
+  z-index: 999999;
+}
+
+.panel-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.panel-body {
+  padding: 10px;
+}
+
+#my-extension-panel button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#my-extension-panel button:hover {
+  background: #218838;
+}

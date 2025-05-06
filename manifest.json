@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Site Control Panel",
+  "version": "1.0",
+  "description": "Панель керування на сайті.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
